@@ -1,3 +1,7 @@
+/* 
+    GENERAL
+*/
+
 * {
     border: 0;
     padding: 0;
@@ -27,6 +31,9 @@
 
 div {
     display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 a {
@@ -34,14 +41,28 @@ a {
     text-decoration: none;
 }
 
-nav a {
-    height: 100%;
-    width: 100%;
-}
-
 a:hover {
     color: rgb(173, 173, 173);
 }
+
+li {
+    display: inline-block;
+}
+
+.row {
+    width: 100%;
+    display: block;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* 
+    HEADER
+*/
 
 nav {
     width: 100%;
@@ -79,6 +100,7 @@ nav {
     height: .4vh;
     width: 5vw;
     background-color: white;
+    border-radius: 2px;
     z-index: 1;
     transform-origin: center;
     transition: opacity 0.2s linear, translate 0.5s ease-out, rotate 0.5s ease-out, transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
@@ -137,29 +159,21 @@ nav {
 .hamburger-social a {
     font-size: .8em;
 }
-
-
 .small-logo {
-    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
     color: white;
     margin-left: 2vw;
     margin-right: 2vw;
     font-size: 2em;
 }
 
-ul li {
-    display: inline-block;
-    margin-left: .5vw;
-    margin-right: .5vw;
-}
+/* 
+    BODY
+*/
 
 .image-container {
     width: 100%;
     height: 92%;
-    opacity: 20%;
     background-image: url("../img/294.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -170,40 +184,21 @@ ul li {
 .title {
     color: rgb(51, 51, 51);
     font-size: 3em;
-    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
 }
-
-.row {
-    width: 100%;
-    display: block;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 .big-element {
     width: 50%;
     height: 50%;
     float: left;
 }
-
 .big-element-title {
     font-size: 1.8em;
     text-align: center;
 }
-
 .small-element {
     height: 50%;
     width: 50%;
     float: left;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
-
 #se1 {
     background-image: url("../img/compass.jpg");
 }
@@ -219,16 +214,16 @@ ul li {
 
 #be3 {
     background-image: url("../img/294.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-
 }
-
 #be1, #be4 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+/* 
+    FOOTER
+*/
 
 footer {
     background: rgb(51, 51, 51);
