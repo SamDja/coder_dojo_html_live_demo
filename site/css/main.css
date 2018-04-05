@@ -65,8 +65,6 @@ li {
 */
 
 nav {
-    width: 100%;
-    height: 8%;
     background: rgb(51, 51, 51);
     color: white;
     display: flex;
@@ -171,8 +169,6 @@ nav {
 */
 
 .image-container {
-    width: 100%;
-    height: 92%;
     background-image: url("../img/294.jpg");
     display: flex;
     align-items: center;
@@ -199,18 +195,8 @@ nav {
     width: 50%;
     float: left;
 }
-#se1 {
-    background-image: url("../img/compass.jpg");
-}
-#se2 {
-    background-image: url("../img/rope.jpg");
-}
-#se3 {
-    background-image: url("../img/thermos.jpg");
-}
-#se4 {
-    background-image: url("../img/backpack.jpg");
-}
+
+/* Missing se$ */
 
 
 /* 
