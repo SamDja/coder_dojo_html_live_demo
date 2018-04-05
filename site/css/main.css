@@ -132,9 +132,9 @@ nav {
 }
 
 .hamburger-container input:checked ~ .hamburger-menu {
-    transform: scale(1, 1);
+    transform: scale(1,1);
     opacity: 1;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2)
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
 }
 
 .hamburger-container input:checked ~ span:nth-child(2) {
@@ -212,14 +212,6 @@ nav {
     background-image: url("../img/backpack.jpg");
 }
 
-#be3 {
-    background-image: url("../img/294.jpg");
-}
-#be1, #be4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 /* 
     FOOTER
